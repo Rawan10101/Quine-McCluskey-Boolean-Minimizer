@@ -1,0 +1,2 @@
+ABC + B'C'D' + ACD
+ABC + B'C'D' + AB'D

@@ -1,0 +1,41 @@
+F = B'C + BC' --- Test_1
+
+Should give an error as the minterm is also a don't care. -- Test_2
+
+Should give an error, as the minterm number exceeds the number of bits -- Test 3
+
+F = A'CDE + A'B --- Test 4
+
+Should give an error, incorrect format -- Test 5
+
+Should give an error, incorrect format -- Test 6
+
+Should give an error, incorrect format -- Test 7
+
+F = A'B'C'E'FG'H + B'C'D'E'F'GH' + A'B'C'D'EG'  OR
+    A'B'C'E'FG'H + A'B'C'D'F'GH' + A'B'C'D'EG' -- Test 8
+
+Should give an error, as the minterm number exceeds the number of bits allowed. -- Test 9
+
+F = BC  OR  A'B -- Test 10
+
+F = B'C'E' + A'BCDE' + AC'E' + A'CD'E + A'B'DE + A'BC'E   OR
+    B'C'E' + A'BCDE' + AC'E' + A'C'DE + A'B'CE + A'BD'E ----Test 11
+
+F = B'CD' + BC' + A'D + A'C --Test 12
+
+F = ABC + B'C'D' + ACD  OR
+    ABC + B'C'D' + AB'D ---Test 13
+
+F = A'C' + B'CD' + ACD + ABD  OR
+    A'C' + B'CD' + AB'C + ABD   --Test 14
+
+F = D' + A + B'E' + B'C' --Test 15
+
+F = C'E' + B'CE + BC' + AD' + C'D' + A'E' + A'CD  OR
+    C'E' + B'CE + BC' + AD' + B'D' + A'E' + A'CD  --Test 16
+
+F = B'D' + BD + CD' + AD'  OR
+    B'D' + BD + CD' + AB  OR
+    B'D' + BD + BC + AD'  OR
+    B'D' + BD + BC + AB   --Test 17

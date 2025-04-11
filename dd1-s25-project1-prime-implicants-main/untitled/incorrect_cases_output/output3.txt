@@ -1,0 +1,1 @@
+Some number in your minterm or Don't Care lines are bigger than the maximum representable number based on the bits.

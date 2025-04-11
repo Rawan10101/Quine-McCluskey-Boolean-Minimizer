@@ -1,0 +1,1 @@
+Error as dont care numbers and minterm numbers share the same number. Please correct your file.
